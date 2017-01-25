@@ -11,7 +11,6 @@
 		B21683911E39023D00EC847E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B21683901E39023D00EC847E /* main.cpp */; };
 		B21683A21E39028D00EC847E /* chess_board.png in Resources */ = {isa = PBXBuildFile; fileRef = B21683A01E39028D00EC847E /* chess_board.png */; };
 		B21683A31E39028D00EC847E /* chess_pieces.png in Resources */ = {isa = PBXBuildFile; fileRef = B21683A11E39028D00EC847E /* chess_pieces.png */; };
-		B21683A91E391BCE00EC847E /* Assets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B21683A71E391BCE00EC847E /* Assets.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +21,6 @@
 		B21683901E39023D00EC847E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B21683A01E39028D00EC847E /* chess_board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_board.png; sourceTree = "<group>"; };
 		B21683A11E39028D00EC847E /* chess_pieces.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_pieces.png; sourceTree = "<group>"; };
-		B21683A71E391BCE00EC847E /* Assets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Assets.cpp; sourceTree = "<group>"; };
-		B21683A81E391BCE00EC847E /* Assets.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Assets.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +58,6 @@
 				B21683901E39023D00EC847E /* main.cpp */,
 				B21683921E39023D00EC847E /* Resources */,
 				B216838B1E39023D00EC847E /* Supporting Files */,
-				B21683A71E391BCE00EC847E /* Assets.cpp */,
-				B21683A81E391BCE00EC847E /* Assets.hpp */,
 			);
 			path = Chess;
 			sourceTree = "<group>";
@@ -171,7 +166,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B21683911E39023D00EC847E /* main.cpp in Sources */,
-				B21683A91E391BCE00EC847E /* Assets.cpp in Sources */,
 				B216838E1E39023D00EC847E /* ResourcePath.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
