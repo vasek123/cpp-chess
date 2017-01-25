@@ -9,10 +9,9 @@
 /* Begin PBXBuildFile section */
 		B216838E1E39023D00EC847E /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = B216838D1E39023D00EC847E /* ResourcePath.mm */; };
 		B21683911E39023D00EC847E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B21683901E39023D00EC847E /* main.cpp */; };
-		B21683941E39023D00EC847E /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B21683931E39023D00EC847E /* cute_image.jpg */; };
-		B21683961E39023D00EC847E /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = B21683951E39023D00EC847E /* nice_music.ogg */; };
-		B21683981E39023D00EC847E /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B21683971E39023D00EC847E /* sansation.ttf */; };
-		B216839A1E39023D00EC847E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B21683991E39023D00EC847E /* icon.png */; };
+		B21683A21E39028D00EC847E /* chess_board.png in Resources */ = {isa = PBXBuildFile; fileRef = B21683A01E39028D00EC847E /* chess_board.png */; };
+		B21683A31E39028D00EC847E /* chess_pieces.png in Resources */ = {isa = PBXBuildFile; fileRef = B21683A11E39028D00EC847E /* chess_pieces.png */; };
+		B21683A91E391BCE00EC847E /* Assets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B21683A71E391BCE00EC847E /* Assets.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,10 +20,10 @@
 		B216838D1E39023D00EC847E /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		B216838F1E39023D00EC847E /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		B21683901E39023D00EC847E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		B21683931E39023D00EC847E /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		B21683951E39023D00EC847E /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
-		B21683971E39023D00EC847E /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		B21683991E39023D00EC847E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B21683A01E39028D00EC847E /* chess_board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_board.png; sourceTree = "<group>"; };
+		B21683A11E39028D00EC847E /* chess_pieces.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_pieces.png; sourceTree = "<group>"; };
+		B21683A71E391BCE00EC847E /* Assets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Assets.cpp; sourceTree = "<group>"; };
+		B21683A81E391BCE00EC847E /* Assets.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Assets.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +61,8 @@
 				B21683901E39023D00EC847E /* main.cpp */,
 				B21683921E39023D00EC847E /* Resources */,
 				B216838B1E39023D00EC847E /* Supporting Files */,
+				B21683A71E391BCE00EC847E /* Assets.cpp */,
+				B21683A81E391BCE00EC847E /* Assets.hpp */,
 			);
 			path = Chess;
 			sourceTree = "<group>";
@@ -77,10 +78,8 @@
 		B21683921E39023D00EC847E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B21683931E39023D00EC847E /* cute_image.jpg */,
-				B21683951E39023D00EC847E /* nice_music.ogg */,
-				B21683971E39023D00EC847E /* sansation.ttf */,
-				B21683991E39023D00EC847E /* icon.png */,
+				B21683A01E39028D00EC847E /* chess_board.png */,
+				B21683A11E39028D00EC847E /* chess_pieces.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -143,10 +142,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B216839A1E39023D00EC847E /* icon.png in Resources */,
-				B21683981E39023D00EC847E /* sansation.ttf in Resources */,
-				B21683961E39023D00EC847E /* nice_music.ogg in Resources */,
-				B21683941E39023D00EC847E /* cute_image.jpg in Resources */,
+				B21683A21E39028D00EC847E /* chess_board.png in Resources */,
+				B21683A31E39028D00EC847E /* chess_pieces.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B21683911E39023D00EC847E /* main.cpp in Sources */,
+				B21683A91E391BCE00EC847E /* Assets.cpp in Sources */,
 				B216838E1E39023D00EC847E /* ResourcePath.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
